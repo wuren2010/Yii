@@ -63,6 +63,10 @@ body {
     padding: 10px 15px;
     display: block;
 }
+
+.docs-item-side li.active a{
+    color: #FFF;
+}
 /** Login **/
 .login-form{
     width: 600px;
