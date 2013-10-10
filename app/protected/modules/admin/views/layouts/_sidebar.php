@@ -1,0 +1,1 @@
+<?php $this->widget('admin.widgets.MenuWidget', array('style' => 'side')); ?>
