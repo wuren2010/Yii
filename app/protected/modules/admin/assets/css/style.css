@@ -1,12 +1,12 @@
 *{list-style: none;}
 ul{margin: 0;padding: 0;}
 body {background: #FFF;padding-top: 60px;font-family: Microsoft YaHei,Arial,sans-serif;font-size: 12px;line-height: 1.25;color: #333;}
-
 /*#1E71B1*/
-
 
 /** 导航·列表 **/
 .navbar-brand{line-height: 28px;margin-left: 15px;}
+.navbar-right > li.dropdown{line-height: 60px;}
+.navbar-right > li.dropdown > a{display: block;padding: 19px;}
 .docs-item-top{}
 .docs-item-top li a{padding:5px 10px;text-align: center;}
 .docs-item-top li a span{height: 28px;line-height: 28px;display: block;font-size: 24px;}
@@ -15,22 +15,11 @@ body {background: #FFF;padding-top: 60px;font-family: Microsoft YaHei,Arial,sans
 .docs-item-side .list-group-item a{padding: 10px 15px;display: block;}
 
 /** 整体布局 **/
+.row{margin-right: 0;}
 .wrap .row,
-.wrap .col-md-3,
-.wrap .col-md-9{padding-left:0;margin: 0;}
+.wrap .col-md-2,
+.wrap .col-md-10{}
 
-
-
-/** Login **/
-.login-form{
-    width: 600px;
-    background: #F8F8F8;
-    padding:45px 20px;
-    margin: 10px auto;
-    border: 1px solid #DDD;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.login-form form {
-    padding: 10px 0;
-}
+/** 后台登录 **/
+.login-form{width: 600px;background: #F8F8F8;padding:45px 20px;margin: 10px auto;border: 1px solid #DDD;border-radius: 5px;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+.login-form form {padding: 10px 0;}
