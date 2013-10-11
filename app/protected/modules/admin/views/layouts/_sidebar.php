@@ -1,1 +1,1 @@
-<?php $this->widget('admin.widgets.MenuWidget', array('style' => 'side')); ?>
+<?php $this->widget('admin.widgets.MenuWidget', array('options' => array('style' => 'side', 'class' => 'list-group'))); ?>

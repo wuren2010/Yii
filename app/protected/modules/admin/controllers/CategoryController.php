@@ -13,6 +13,7 @@ class CategoryController extends Controller {
     }
 
     public function actionNode() {
+
         $model = new Category;
         $list = CJSON::encode($model->nodes());
         $this->render('node', array('list' => $list));
