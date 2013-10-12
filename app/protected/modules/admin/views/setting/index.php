@@ -1,3 +1,3 @@
-<div class="" style="width:500px;">
+<div class="">
     <?php $this->widget('admin.widgets.ServicesWidget'); ?>
 </div>
