@@ -15,7 +15,7 @@ class UserIdentity extends CUserIdentity {
             $user->last_login_time = date('Y-m-d H:i:s', time());
             $this->setState('nickname', $user->nickname);
             $this->setState('last_login_time', $user->last_login_time);
-            $user->save();
+            $user->save(true,array('last_login_time'));
             $this->errorCode = self::ERROR_NONE;
         }
         return !$this->errorCode;
